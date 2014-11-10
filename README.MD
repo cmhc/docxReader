@@ -5,6 +5,6 @@
 >仅仅做最基础的转化，目前转化后的标签只有p,br,table系列，对我目前来说够用啦。
 ###用法
 	header("Content-type:text/html;charset=utf-8");
-  require('docxReader.php');
-  $DR = new docxReader();
-  print_r($DR->read("files/test.docx"))
+	require('docxReader.php');
+	$DR = new docxReader();
+	print_r($DR->read("files/test.docx"))
